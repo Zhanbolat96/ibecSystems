@@ -1,0 +1,29 @@
+ul {
+  -webkit-box-shadow: 0 0 5px 1px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0 0 5px 1px rgba(0,0,0,0.2);
+  box-shadow: 0 0 5px 1px rgba(0,0,0,0.2);
+  border-radius: 3px;
+}
+
+.nav-li {
+  padding: 10px 0;
+  background: linear-gradient(#eeeeee, #ffffff);
+  &:hover {
+    background: linear-gradient(#ffffff, #eeeeee);
+  }
+  list-style-type: none;
+}
+
+.logo {
+  width: 150px;
+}
+
+.link {
+  padding: 0 20px;
+  border-right: 1px solid black;
+  color: black;
+}
+
+.no-border {
+  border: none;
+}
